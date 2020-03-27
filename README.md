@@ -1,5 +1,5 @@
 # Lunchbox - Food Truck & Restaurant
-<p>Lunchbox é um projeto que encontrei no Pinterest, onde eu sempre procurar por layouts de sites para poder praticar, e me interessei
+<p>Lunchbox é um projeto que encontrei no Pinterest, onde eu sempre procuro por layouts de sites para poder praticar, e me interessei
 bastante.</p>
 <p>É um projeto que ainda se encontra em andamento. Finalizei uma parte do projeto, o frontend da home. E, posteriormente, utilizarei
 Node.js no backend para poder armazenar as partes estáticas do site.</p>
