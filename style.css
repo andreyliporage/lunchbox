@@ -83,7 +83,7 @@ nav li:last-child {
     right: 0;
 }
 
-.banner-content h1, p{    
+.banner-content h1, p {
     animation-name: up;
     animation-duration: 1s;
 }
@@ -373,4 +373,206 @@ footer .footer-content {
 
 .end-footer li:last-child {
     margin: 0;
+}
+
+/* === Menu === */
+
+
+.banner {
+    background-image: url("https://source.unsplash.com/collection/1256090/1000");    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 450px;
+    color: white;
+    position: relative;
+}
+
+.banner::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.banner img {
+    margin-top: 10vh;
+    width: 30%;
+}
+
+.banner h1 {
+    margin-top: 5vh;
+    margin-left: 5vw;
+    font-size: 80px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.banner p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.mini-banner {
+    background-color: #98d865;
+    padding: 32px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.mini-banner span {
+    color: white;
+    margin: auto;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.mini-banner span::before {
+    content: "";
+    background-color: white;
+    position: absolute;
+    width: 410px;
+    height: 2px;
+    top: 35px;
+}
+
+.mini-banner span::after {
+    content: "";
+    background-color: white;
+    position: absolute;
+    width: 410px;
+    height: 2px;
+    top: 77px;
+    left: 426px;
+}
+
+.menu {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: auto;
+    font-family: 'Noticia Text';
+}
+
+.menu .option {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 50px;
+    max-width: 500px;
+}
+
+.menu .option img{
+    width: 190px;
+    border-radius: 6px;
+}
+
+.flex {
+    display: grid;
+    grid-template-columns: 1.8fr 1fr;
+    align-items: center;
+    border-bottom: 2px dotted #cccccc;
+    margin-bottom: 10px;
+}
+
+.flex .name-option {
+    font-size: 22px;
+    font-weight: lighter;
+    opacity: 0.7;
+}
+
+.flex .price-option {
+    text-align: right;
+    font-size: 15px;
+    font-weight: bold;
+    opacity: 0.5;
+} 
+
+.option .details-option {
+    opacity: 0.7;
+    text-align: justify;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.mini-banner2 {
+    background-color: #98d865;
+    padding: 32px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.mini-banner2 span {
+    color: white;
+    margin: auto;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.mini-banner2 span::before {
+    content: "";
+    background-color: white;
+    position: absolute;
+    width: 255px;
+    height: 2px;
+    top: 35px;
+}
+
+.mini-banner2 span::after {
+    content: "";
+    background-color: white;
+    position: absolute;
+    width: 255px;
+    height: 2px;
+    top: 77px;
+    left: 503px;
+}
+
+.mini-banner3 {
+    background-color: #98d865;
+    padding: 32px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.mini-banner3 span {
+    color: white;
+    margin: auto;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.mini-banner3 span::before {
+    content: "";
+    background-color: white;
+    position: absolute;
+    width: 175px;
+    height: 2px;
+    top: 35px;
+}
+
+.mini-banner3 span::after {
+    content: "";
+    background-color: white;
+    position: absolute;
+    width: 175px;
+    height: 2px;
+    top: 77px;
+    left: 544px;
 }
