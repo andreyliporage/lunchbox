@@ -597,7 +597,6 @@ footer .footer-content {
     align-items: center;
     margin: auto;
     box-sizing: border-box;
-    font-family: 'Martel Sans', sans-serif;
 }
 
 .location {
@@ -605,6 +604,7 @@ footer .footer-content {
     border: 1px solid white;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
     transition: 500ms;
+    font-family: 'Martel Sans', sans-serif;
 }
 
 .location:hover {
