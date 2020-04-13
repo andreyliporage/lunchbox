@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Martel+Sans:300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Noticia+Text:400,700&display=swap');
 
 * {
@@ -597,16 +597,40 @@ footer .footer-content {
     align-items: center;
     margin: auto;
     box-sizing: border-box;
-    font-family: 'Noticia Text';
+    font-family: 'Martel Sans', sans-serif;
 }
 
 .location {
-    padding: 16px;
+    padding: 28px;
     border: 1px solid white;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+    transition: 500ms;
 }
 
 .location:hover {
     border: 2px solid #98d865;
 }
 
+.location .location-title {
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 4px;
+}
+
+.location .location-name {
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 200;
+}
+
+.location .location-detail {
+    margin-bottom: 20px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.location .locaiton-info {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 2px solid #aaa9a9ea;
+}
